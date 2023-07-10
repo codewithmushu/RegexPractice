@@ -28,6 +28,10 @@ namespace RegexDemo
                         Regex_Match reger_Match = new Regex_Match();
                         reger_Match.CheckName("Kirti");
                         break;
+                    case 3:
+                        Regex_Match Match = new Regex_Match();
+                        Match.LastName("Puri");
+                        break;
 
 
                 }
