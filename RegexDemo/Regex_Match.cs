@@ -33,6 +33,7 @@ namespace RegexDemo
 
         public void CheckName(string name)
         {
+            //? it will check value we are using the
             string myName = "^[A-Z][a-z]{3,}?";
             if (Regex.IsMatch(name, myName))
             {

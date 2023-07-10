@@ -15,6 +15,7 @@ namespace RegexDemo
             {
                 Console.WriteLine("Please choose the option below:");
                 Console.WriteLine("1: Regex exp");
+                Console.WriteLine("2: Check Name");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
@@ -23,6 +24,11 @@ namespace RegexDemo
                         Regex_Match reger_match = new Regex_Match();
                         reger_match.MyRegex();
                         break;
+                    case 2:
+                        Regex_Match reger_Match = new Regex_Match();
+                        reger_Match.CheckName("Kirti");
+                        break;
+
 
                 }
             }
